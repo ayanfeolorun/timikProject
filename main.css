@@ -50,21 +50,22 @@ footer{
     gap: 10px;
 }
 .homepage > div{
-    margin-top: 30px;
+    margin-top: 70px;
     margin-left: 20px;
     line-height: 1.5em;
-    margin-right: 10px;
-    font-size: 13pt;
+    margin-right: 7px;
+    font-size: 15pt;
     clear:both;
     text-align: right;
 }
 .homepage > div > p {
     padding-top: 30px;
 }
-.homepage > div > h2{
+.homepage > div > h2, h3{
     color: olivedrab;
     font-size: 30pt;
 }
+/*fully start product design */
 
 .firsthover > ul{
     display: none;
@@ -81,4 +82,20 @@ footer{
     border-bottom: 1px solid black;
     font-size: 12px;
     
+}
+ article > .product_edit{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    row-gap: 5px;
+    column-gap: 10px;
+   flex-wrap: wrap;
+
+}
+
+figure > img{
+    width: 320px;
+    height: 320px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 4px 3px darkgray;
 }
