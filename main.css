@@ -84,13 +84,13 @@ footer{
     
 }
  article > .product_edit{
+    margin-top: 120px;
     display: inline-flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     row-gap: 5px;
     column-gap: 10px;
    flex-wrap: wrap;
-
 }
 
 figure > img{
@@ -98,4 +98,56 @@ figure > img{
     height: 320px;
     border-radius: 5px;
     box-shadow: 0px 3px 4px 3px darkgray;
+}
+figcaption{
+    text-align: center;
+}
+/*started design for the services rendered */
+.serviceshere {
+    margin: 0px auto;
+    margin-top: 130px;
+}
+.all_services {
+   
+    margin-top: 130px;
+    width: 60vw;
+    height: 150px;
+    background-color: skyblue;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    margin-left: 160px;
+}
+.service {
+    width: 20%;
+    height: 220px;
+    background-color: olivedrab;
+    opacity: 0.85;
+    margin-bottom: 50px;
+    margin-top: -100px;
+    text-align: center;
+    border-radius: 5px;
+}
+.service > p{
+    border: 0.5px none black;
+    border-radius: 2px;
+    margin: 4px;
+    padding: 2px;
+}
+.service > button{
+    background-color: aqua;
+    border-radius: 0.2px;
+    border: none;
+    padding: 2px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.service > div{
+    float: right;
+    border-top: 20px aqua solid;
+    border-right: 20px aqua solid;
+    background-color: aqua;
+    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+    margin-top: 40px;
 }
