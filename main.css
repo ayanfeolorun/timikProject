@@ -8,8 +8,7 @@ html,body{
 body{
     max-width: 90%;
     margin: 2em auto;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 11pt;
 }
 header{
@@ -136,7 +135,7 @@ figcaption{
 .service {
     width: 25%;
     height: 220px;
-    background-color: olivedrab;
+    background-color: darkgrey;
     opacity: 0.85;
     margin-bottom: 50px;
     margin-top: -100px;
@@ -167,12 +166,15 @@ figcaption{
     margin-top: 50px;
     height: 4px;
 }
+.service > div:active{
+    background-color: olivedrab;
+}
 /*footer edition */
 #footer{
     margin: 100px auto 0px auto;
     width: 100%;
     height: 100px;
-    background-color: dodgerblue;
+    background-color: olivedrab;
     padding-bottom: 50px;
     text-align: start;
 }
